@@ -1,0 +1,15 @@
+.classpath
+.settings/
+.metadata
+*.irb-history
+test-output/
+target/
+bin/
+*.DS_Store
+lint.xml
+gen/
+out/
+
+#intellij
+.idea/
+*.iml

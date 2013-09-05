@@ -29,6 +29,7 @@ script:
   - adb devices
   - adb install selendroid-server/target/selendroid-server-0.4-SNAPSHOT.apk
   - adb install selendroid-test-app/target/selendroid-test-app-0.4-SNAPSHOT.apk
+  - chmod a+x ./selendroid-server/start-server.sh
   - ./selendroid-server/start-server.sh 
   - cd selendroid-large-tests
   - mvn install -DskipTests=false -DtestngGroups=native
